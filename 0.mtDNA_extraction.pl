@@ -6,7 +6,7 @@ use strict;
 # my vars
 my $database = "$ARGV[0]"; # the first argu is the database
 my $bad_ids = "$ARGV[1]"; # the second argu are the bad ids
-my $output = "assembly_without_bad_contigs.fsa"; # the default argu
+my $output = "reads_without_mt_seqs.fsa"; # the default argu
 my $get_bad_ids = "just_bad_ids.txt";
 
 # Getting the bad ids to remove them
