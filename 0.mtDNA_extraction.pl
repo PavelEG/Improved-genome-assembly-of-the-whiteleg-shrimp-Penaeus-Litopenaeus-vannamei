@@ -1,4 +1,5 @@
 #!/usr/bin/perl
+#This script used a one-column file with IDs that are going to be used to remove entries from a fasta file
 
 use warnings;
 use strict;
